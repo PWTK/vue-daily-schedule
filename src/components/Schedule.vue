@@ -102,7 +102,7 @@ export default {
     },
     timeArray: {
       type: Array,
-      default: [],
+      default: ['8AM', '9AM', '10AM', '11AM', '12AM', '13PM', '14PM', '15PM', '16PM', '17PM', '18PM'],
       validator: val => val.length > 0
     },
     strWeek:{
